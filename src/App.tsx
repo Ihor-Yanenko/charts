@@ -10,9 +10,9 @@ function App() {
   return (
     <>
       <div className="card">
-        <TankVolume></TankVolume>
+        <TankVolume width={350} height={400}></TankVolume>
       </div>
-      <p className="read-the-docs">
+      <p className="read-the-docs" onClick={() => setCount((prev) => prev + 10)}>
         Click on the Vite and React logos to learn more
       </p>
     </>
